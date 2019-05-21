@@ -1,27 +1,26 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Page_2_controller extends CI_Controller {
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
+class Page_2_controller extends CI_Controller 
+{
+    
+    public function index()
 	{
 		//$this->load->helper('url');
 		$this->load->view('Registration-Page-2');
+    }
+    function basic_details()
+	{
+		$this->load->model('my_register_model', 'mrm');
+		$data['res'] = $this->mrm->basic_details();
+		if($data['res'] == true)
+		{
+			echo "Register Successfully"."<br><a href='" . site_url('Page_2_controller') . "'>Back</a>";
+			redirect('Page_3_controller');
+		} 
+		else 
+		{
+			echo "Already exists. Please try with new name and email."."<br><a href='" . site_url('Page_2_controller') . "'>Back</a>"; 
+		}
 	}
-
 }

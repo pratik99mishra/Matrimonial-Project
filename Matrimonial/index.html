@@ -1,389 +1,378 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
+
 <head>
-	<title>Matrimonial Project</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css\index.css">
+    <title>index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Wedding Planner Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-<!-------------------------------------------------------font-awsome linking--------------------------------------------------------------->
-	<link rel="stylesheet" type="text/css" href="css\font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css\font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-<!--------------------------------------------------bootstrap offline linking-------------------------------------------------------------->
-	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
-	<!--<script type="text/javascript" src="js\bootstrap.js"></script>
-	<script type="text/javascript" src="js\bootstrap.min.js"></script>-->
-
-<!--------------------------------------------------bootstrap online linking-------------------------------------------------------------->
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+	<!-- //Custom Theme files -->
+    <!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100i,400,500,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+	<!-- //online-fonts -->
 </head>
+
 <body>
-    <div class="bgimg">
-        <nav class="navbar navbar-expand-md navbar-dark bg-danger">
-    	    <div class="container">
-                <a href="" class="navbar-brand">
-                	<strong>SAGAI.COM</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsenavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <!-- banner -->
+    <div class="banner">
+        <!-- header -->
+        <header>	
+	<nav class="mnu navbar-light">
+            <div class="logo" id="logo">
+                <h1><a href="index.html">SAGAI.COM</a></h1>
+            </div>
+				<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+                <input type="checkbox" id="drop">
+                    <ul class="menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+						<li><a href="Login.html">Login</a></li>
+						<li><a href="Sign-up.html">Sign Up</a></li>
+						<li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                              <li><a href="about.html">About</a>
+                              </li>
+
+                              <li><a href="gallery.html">Gallery</a>
+                                </li>
+
+
+                              <li><a href="services.html">Services</a>
+							  </li>
+
+                                <li><a href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Opinions</a>
-                        </li>
+
+                        <!--<li><a href="contact.html">Contact Us</a></li>-->
                     </ul>
-                </div>
+    </nav>
+</header>
+<!-- //header -->
+        <div class="container">
+            <!-- banner-text -->
+            <div class="banner-text">
+                <div class="slider-info">
+                    <h3>FOREVER TOGETHER</h3>
+                    <h2>WE FIND PURE SOULS...</h2>
+					<a href="about.html" class="banner-button btn mt-md-5 mt-4">Know More</a>
+				</div>
             </div>
-        </nav>
-        <div class="container text-center headerset">
-            <h1>FOREVER TOGETHER</h1>
-            <h3>WE FIND PURE SOULS...</h3>
         </div>
-        <!--<div class="container slot" id="slot1">
-            <form id="booking-form" class="booking-form" method="POST">
-                <div class="form-group">
-                    <div class="form-looking-for">
-                        <label for="I'm_looking_for_a">I'm looking for a</label>
-                        <br>
-                        <select class="looking-for">
-                            <option value="Female" label="Woman" selected="selected">Woman</option>
-                            <option value="Male" label="Man">Man</option>
-                        </select>
-                    </div>
-                    <div class="form-aged-from form-icon" id="form-aged-from">
-                        <label for="aged">aged from</label>
-                        <br>
-                        <select id="agefrom">
-                            <option value="18" label="18">18</option>
-                            <option value="19" label="19">19</option>
-                            <option value="20" label="20" selected="selected">20</option>
-                            <option value="21" label="21">21</option>
-                            <option value="22" label="22">22</option>
-                            <option value="23" label="23">23</option>
-                            <option value="24" label="24">24</option>
-                            <option value="25" label="25">25</option>
-                            <option value="26" label="26">26</option>
-                            <option value="27" label="27">27</option>
-                            <option value="28" label="28">28</option>
-                            <option value="29" label="29">29</option>
-                            <option value="30" label="30">30</option>
-                            <option value="31" label="31">31</option>
-                            <option value="32" label="32">32</option>
-                            <option value="33" label="33">33</option>
-                            <option value="34" label="34">34</option>
-                            <option value="35" label="35">35</option>
-                            <option value="36" label="36">36</option>
-                            <option value="37" label="37">37</option>
-                            <option value="38" label="38">38</option>
-                            <option value="39" label="39">39</option>
-                            <option value="40" label="40">40</option>
-                            <option value="41" label="41">41</option>
-                            <option value="42" label="42">42</option>
-                            <option value="43" label="43">43</option>
-                            <option value="44" label="44">44</option>
-                            <option value="45" label="45">45</option>
-                            <option value="46" label="46">46</option>
-                            <option value="47" label="47">47</option>
-                            <option value="48" label="48">48</option>
-                            <option value="49" label="49">49</option>
-                            <option value="50" label="50">50</option>
-                            <option value="51" label="51">51</option>
-                            <option value="52" label="52">52</option>
-                            <option value="53" label="53">53</option>
-                            <option value="54" label="54">54</option>
-                            <option value="55" label="55">55</option>
-                            <option value="56" label="56">56</option>
-                            <option value="57" label="57">57</option>
-                            <option value="58" label="58">58</option>
-                            <option value="59" label="59">59</option>
-                            <option value="60" label="60">60</option>
-                            <option value="61" label="61">61</option>
-                            <option value="62" label="62">62</option>
-                            <option value="63" label="63">63</option>
-                            <option value="64" label="64">64</option>
-                            <option value="65" label="65">65</option>
-                            <option value="66" label="66">66</option>
-                            <option value="67" label="67">67</option>
-                            <option value="68" label="68">68</option>
-                            <option value="69" label="69">69</option>
-                            <option value="70" label="70">70</option>
-                            <option value="71" label="71">71</option>				
-                        </select>
-                    </div>
-                    <div class="form-aged-to form-icon" id="form-aged-to">
-                        <label for="aged">aged to</label>
-                        <br>
-                        <select id="ageto">
-                            <option value="18" label="18">18</option>
-                            <option value="19" label="19">19</option>
-                            <option value="20" label="20">20</option>
-                            <option value="21" label="21">21</option>
-                            <option value="22" label="22">22</option>
-                            <option value="23" label="23">23</option>
-                            <option value="24" label="24">24</option>
-                            <option value="25" label="25" selected="selected">25</option>
-                            <option value="26" label="26">26</option>
-                            <option value="27" label="27">27</option>
-                            <option value="28" label="28">28</option>
-                            <option value="29" label="29">29</option>
-                            <option value="30" label="30">30</option>
-                            <option value="31" label="31">31</option>
-                            <option value="32" label="32">32</option>
-                            <option value="33" label="33">33</option>
-                            <option value="34" label="34">34</option>
-                            <option value="35" label="35">35</option>
-                            <option value="36" label="36">36</option>
-                            <option value="37" label="37">37</option>
-                            <option value="38" label="38">38</option>
-                            <option value="39" label="39">39</option>
-                            <option value="40" label="40">40</option>
-                            <option value="41" label="41">41</option>
-                            <option value="42" label="42">42</option>
-                            <option value="43" label="43">43</option>
-                            <option value="44" label="44">44</option>
-                            <option value="45" label="45">45</option>
-                            <option value="46" label="46">46</option>
-                            <option value="47" label="47">47</option>
-                            <option value="48" label="48">48</option>
-                            <option value="49" label="49">49</option>
-                            <option value="50" label="50">50</option>
-                            <option value="51" label="51">51</option>
-                            <option value="52" label="52">52</option>
-                            <option value="53" label="53">53</option>
-                            <option value="54" label="54">54</option>
-                            <option value="55" label="55">55</option>
-                            <option value="56" label="56">56</option>
-                            <option value="57" label="57">57</option>
-                            <option value="58" label="58">58</option>
-                            <option value="59" label="59">59</option>
-                            <option value="60" label="60">60</option>
-                            <option value="61" label="61">61</option>
-                            <option value="62" label="62">62</option>
-                            <option value="63" label="63">63</option>
-                            <option value="64" label="64">64</option>
-                            <option value="65" label="65">65</option>
-                            <option value="66" label="66">66</option>
-                            <option value="67" label="67">67</option>
-                            <option value="68" label="68">68</option>
-                            <option value="69" label="69">69</option>
-                            <option value="70" label="70">70</option>
-                            <option value="71" label="71">71</option>
-                        </select>				
-                    </div>
-                    <div class="form-of-religion form-icon">
-                        <label for="of_religion">of religion</label>
-                        <br>
-                        <select id="religion">
-            		        <option value="" label="Select" selected="selected">Select</option>
-                            <option value="Hindu" label="Hindu">Hindu</option>
-                            <option value="Muslim" label="Muslim">Muslim</option>
-                            <option value="Christian" label="Christian">Christian</option>
-                            <option value="Sikh" label="Sikh">Sikh</option>
-                            <option value="Parsi" label="Parsi">Parsi</option>
-                            <option value="Jain" label="Jain">Jain</option>
-                            <option value="Buddhist" label="Buddhist">Buddhist</option>
-                            <option value="Jewish" label="Jewish">Jewish</option>
-                            <option value="No Religion" label="No Religion">No Religion</option>
-                            <option value="Spiritual - not religious" label="Spiritual">Spiritual</option>
-                            <option value="Other" label="Other">Other</option>
-            	        </select>
-                    </div>
-                    <div class="form-mother-tongue">
-                        <label for="mother-tongue">and mother tongue</label>
-                        <br>
-                        <select id="mother-tongue">
-                            <option value="" label="Select" selected="selected">Select</option>
-                            <optgroup id="frm-mothertongue-optgroup-Frequently Used" label="Frequently Used">
-                            <option value="Assamese" label="Assamese">Assamese</option>
-                            <option value="Bengali" label="Bengali">Bengali</option>
-                            <option value="English" label="English">English</option>
-                            <option value="Gujarati" label="Gujarati">Gujarati</option>
-                            <option value="Hindi" label="Hindi">Hindi</option>
-                            <option value="Kannada" label="Kannada">Kannada</option>
-                            <option value="Konkani" label="Konkani">Konkani</option>
-                            <option value="Malayalam" label="Malayalam">Malayalam</option>
-                            <option value="Marathi" label="Marathi">Marathi</option>
-                            <option value="Marwari" label="Marwari">Marwari</option>
-                            <option value="Odia" label="Odia">Odia</option>
-                            <option value="Punjabi" label="Punjabi">Punjabi</option>
-                            <option value="Sindhi" label="Sindhi">Sindhi</option>
-                            <option value="Tamil" label="Tamil">Tamil</option>
-                            <option value="Telugu" label="Telugu">Telugu</option>
-                            <option value="Urdu" label="Urdu">Urdu</option>
-                            </optgroup>
-                            <optgroup id="frm-mothertongue-optgroup-More" label="More">
-                            <option value="Aka" label="Aka">Aka</option>
-                            <option value="Arabic" label="Arabic">Arabic</option>
-                            <option value="Arunachali" label="Arunachali">Arunachali</option>
-                            <option value="Awadhi" label="Awadhi">Awadhi</option>
-                            <option value="Baluchi" label="Baluchi">Baluchi</option>
-                            <option value="Bhojpuri" label="Bhojpuri">Bhojpuri</option>
-                            <option value="Bhutia" label="Bhutia">Bhutia</option>
-                            <option value="Brahui" label="Brahui">Brahui</option>
-                            <option value="Brij" label="Brij">Brij</option>
-                            <option value="Burmese" label="Burmese">Burmese</option>
-                            <option value="Chattisgarhi" label="Chattisgarhi">Chattisgarhi</option>
-                            <option value="Chinese" label="Chinese">Chinese</option>
-                            <option value="Coorgi" label="Coorgi">Coorgi</option>
-                            <option value="Dogri" label="Dogri">Dogri</option>
-                            <option value="French" label="French">French</option>
-                            <option value="Garhwali" label="Garhwali">Garhwali</option>
-                            <option value="Garo" label="Garo">Garo</option>
-                            <option value="Haryanavi" label="Haryanavi">Haryanavi</option>
-                            <option value="Himachali/Pahari" label="Himachali/Pahari">Himachali/Pahari</option>
-                            <option value="Hindko" label="Hindko">Hindko</option>
-                            <option value="Kakbarak" label="Kakbarak">Kakbarak</option>
-                            <option value="Kanauji" label="Kanauji">Kanauji</option>
-                            <option value="Kashmiri" label="Kashmiri">Kashmiri</option>
-                            <option value="Khandesi" label="Khandesi">Khandesi</option>
-                            <option value="Khasi" label="Khasi">Khasi</option>
-                            <option value="Koshali" label="Koshali">Koshali</option>
-                            <option value="Kumaoni" label="Kumaoni">Kumaoni</option>
-                            <option value="Kutchi" label="Kutchi">Kutchi</option>
-                            <option value="Ladakhi" label="Ladakhi">Ladakhi</option>
-                            <option value="Lepcha" label="Lepcha">Lepcha</option>
-                            <option value="Magahi" label="Magahi">Magahi</option>
-                            <option value="Maithili" label="Maithili">Maithili</option>
-                            <option value="Malay" label="Malay">Malay</option>
-                            <option value="Manipuri" label="Manipuri">Manipuri</option>
-                            <option value="Miji" label="Miji">Miji</option>
-                            <option value="Mizo" label="Mizo">Mizo</option>
-                            <option value="Monpa" label="Monpa">Monpa</option>
-                            <option value="Nepali" label="Nepali">Nepali</option>
-                            <option value="Pashto" label="Pashto">Pashto</option>
-                            <option value="Persian" label="Persian">Persian</option>
-                            <option value="Rajasthani" label="Rajasthani">Rajasthani</option>
-                            <option value="Russian" label="Russian">Russian</option>
-                            <option value="Sanskrit" label="Sanskrit">Sanskrit</option>
-                            <option value="Santhali" label="Santhali">Santhali</option>
-                            <option value="Seraiki" label="Seraiki">Seraiki</option>
-                            <option value="Sinhala" label="Sinhala">Sinhala</option>
-                            <option value="Sourashtra" label="Sourashtra">Sourashtra</option>
-                            <option value="Spanish" label="Spanish">Spanish</option>
-                            <option value="Swedish" label="Swedish">Swedish</option>
-                            <option value="Tagalog" label="Tagalog">Tagalog</option>
-                            <option value="Tulu" label="Tulu">Tulu</option>
-                            <option value="Other" label="Other">Other</option>
-                            </optgroup>    		
-            	        </select>
-                    </div>
-                    <div class="form-lets-begin">
-                    	<label></label>
-                    	<br>
-                        <button id="form-submit">Let's Begin</button>
-                    </div>
-                </div>
-            </form>
-        </div>-->
     </div>
-    <section class="container ourservices text-center">
-    	<h1>Find your Special Someone</h1>
-    	<div class="row rowsetting">
-    		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    			<div class="imgsetting d-block m-auto bg-info"><i class="fa fa-sign-in" style="font-size:48px; color:white"></i></div>
-    			<h2>Sign up</h2>
-    			<p>Register for free & put up your Profile</p>
-    		</div>
-    		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    			<div class="imgsetting d-block m-auto bg-info"><i class="fa fa-connectdevelop" style="font-size:48px; color:white"></i></div>
-    			<h2>Connect</h2>
-    			<p>Select & Connect with Matches you like</p>
-    		</div>
-    		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    			<div class="imgsetting d-block m-auto bg-info"><i class="fa fa-comments" style="font-size:48px; color:white"></i></div>
-    			<h2>Interact</h2>
-    			<p>Become a Premium Member & Start a Conversation</p>
-    		</div>
-    	</div>
-    </section>
-    <section class="happy-stories bg-light">
-        <div class="container text-center">
-            <h1>Happy Stories</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
+	 <!-- //banner-text -->
+	 <!--banner form-->
+	<section class="banner_form py-5">
+		<div class="container py-lg-3">
+			<div class="row ban_form">
+				<div class="col-lg-7 fom-left">
+					<div class="categories_sub cats1">
+						<h2 class="heading-agileinfo">Our Weddings  Story</h2>
+						<p class="vam">I have been searching on other matrimonial websites for months but had no success initially. As soon as I joined SAGAI.COM I came upon my future wife's profile. We live in the same city and therefore it was easy to meet and get to know her. we got married recently.<br> 
+						Thank you for the help SAGAI.COM</p></div>
+				</div>
+				<div class="col-lg-5 reg-fom">
+					<img src="images/pee.jpg" class="img-fluid" alt="">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--//banner form-->
+	  <!-- /services -->
+    <section class="banner-bottom-wthree py-lg-5 py-md-5 py-3">
+        <div class="container">
+            <div class="inner-sec-w3ls py-lg-5 py-3">
+               <h3 class="heading-agileinfo text-center">Find your Special Someone </h3>
+                <div class="row middle-grids mt-md-5 pt-4">
+                    <div class="col-lg-4 about-in-w3ls middle-grid-info text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="fa fa-sign-in mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">
+                                 Sign up</h5>
+                                <p class="card-text">Register for free & put up your Profile
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
+                    <div class="col-lg-4 about-in-w3ls middle-grid-info active text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="fa fa-connectdevelop mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Connect</h5>
+                                <p class="card-text">Select & Connect with Matches you like
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block ">
-                    <div class="card">
-                        <img src="C:\Users\Dell\Desktop\Matrimonial Project\images\arlin-html-wedding-website-template.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title">Threads</h2>
-                            <p class="card-title">Illustration</p>
+                    <div class="col-lg-4 about-in-w3ls middle-grid-info text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="fa fa-comments mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Interact</h5>
+                                <p class="card-text">Become a Premium Member & Start a Conversation
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- //services -->
+<!-- choose -->
+	<section class="choose py-5">
+		<div class="container py-md-4 mt-md-3"> 
+			<div class="row inner_w3l_agile_grids-1 ">
+				<div class="col-lg-6 w3layouts_choose_left_grid1">
+					<div class="choose_top">
+						<h4 class="mb-3 mt-3 text-white">Feel Free to Contact us Directly</h4>
+						<p class="text-white">SAGAI.COM is a web based marriage introduction service. The target audience are men and women living in India and others looking to marry from these countries. Specific care is taken not to expose the contact information of the members to prevent unwanted communication and maintain privacy. </p>
+						<a href="services.html" class="btn btn-primary mt-3">Read More</a>
+					</div>
+				</div>
+				<div class="col-lg-6 w3layouts_choose_left_grid2">
+					<div class="row">
+						<div class="col-md-6 w3l_choose_bottom1 mt-3 pt-md-4">
+							<div class="choose_bottom_top">
+                                <span class="fa fa-gift mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Weddings</h5>
+                                <p class="card-text">A wedding is a ceremony where two people are united in marriage.
+                                </p>
+                            </div>
+						</div>
+						<div class="col-md-6 w3l_choose_bottom2">
+							<div class="choose_bottom_top">
+                                <span class="fa fa-cutlery mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Parties</h5>
+                                <p class="card-text">Pleasant surprises are loved by everyone.
+                                </p>
+                            </div>
+						</div>
+						<div class="col-md-6 w3l_choose_bottom3 mt-3 pt-md-4">
+							<div class="choose_bottom_top">
+                                <span class="fa fa-music mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Entertainment</h5>
+                                <p class="card-text">Entertainment is important as it brings people together and is a good way for the entire family to bond.
+                                </p>
+                            </div>
+						</div>
+						<div class="col-md-6 w3l_choose_bottom4">
+							<div class="choose_bottom_top">
+                                <span class="fa fa-glass mb-2"></span>
+                                <h5 class="card-title text-uppercase my-3">Celebrations</h5>
+                                <p class="card-text">A celebration is a special enjoyable event that people organize because something pleasant has happened or because it is someone's birthday or anniversary.
+                                </p>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>   
+</section>
+<!-- //choose -->
+	 <!-- /advantage -->
+    <section class="banner-bottom py-lg-5 py-md-5 py-3">
+        <div class="container">
+            <div class="inner-sec py-lg-5 py-3">
+                 <h3 class="heading-agileinfo text-center">Our Best Matches</h3>
+               <div class="row middle-grids mt-lg-5 pt-5">
+                   <div class="col-lg-6 advantage-grid-info1">
+                        <div class="advantage_left1 text-center">
+                            <img src="images/p1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div> 
+					 <div class="col-lg-6 advantage-grid-info pt-md-5">
+                        <div class="advantage_left">
+							<!--<h4 class="mb-2">Integer porttitor mollisar</h4>-->
+                            <h3>Nazia</h3>
+							<p class="mt-2">I met my husband Rehan, after being on SAGAI.COM for a few months. I first moticed his profile during my first week on the site. Intitially, I decided not to respond, but now I an glad that I did. We spoke on phone for a few weeks and then decided to meet in person. We clicked instatntly and got married this year.</p>
+                        </div>
+                    </div>
+                </div>
+				 <div class="row middle-grids pt-lg-5">
+                    <div class="col-lg-6 advantage-grid-info pt-md-5 mt-md-5">
+                        <div class="advantage_left">
+							<!--<h4 class="mb-2">Integer porttitor mollisar</h4>-->
+                            <h3>Tipu Malik</h3>
+							<p class="mt-2">I met my lovely wife through SAGAI.COM. I had just graduated from McGill University in Montreal canada and began work in Toronto. I joined SAGAI.COM as my life became busy and I had less time to go out to meet new people. The girl I was interested in lived in Dallas. She visitedme in Toronto and I sealed the deal. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 advantage-grid-info1">
+                        <div class="advantage_left2 text-center">
+                            <img src="images/g1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div> 
+                </div>
+			</div>
+        </div>
+    </section>
+    <!-- //advantage -->
+	<!-- feedback -->
+	<section class="news py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="heading-agileinfo text-white text-center">Recent FeedBack</h3>
+			<div class="row mt-md-5 pt-4">
+				<div class="col-md-4 item">
+					<div class="feedback-info py-5 px-4">
+						<!--<h4 class="mb-2">Tempor incididunt ut labore hytnm-->
+						</h4>
+						<p>I register my son SAGAI.COM. We wanted a professional and family oriented girl for our son then we register SAGAI.COM and finally we got matches for my son and my son got married and we want to thank SAGAI.COM for making this task easy for us keep up the good work!<br>
+						Thank You.</p>
+						<div class="feedback-grids mt-4">
+							<div class="feedback-img">
+								<img src="images/te1.jpg" class="img-fluid rounded-circle" alt="" />
+							</div>
+							<div class="feedback-img-info">
+								<h5>Rahul Bhatiya</h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 item-2">
+					<div class="feedback-info py-5 px-4">
+						<!--<h4 class="mb-2">Tempor incididunt ut labore hytnm-->
+						</h4>
+						<p>My first date went amazing, it was a casual meetup. I felt good in his company, he was the life partner that was worth searching. We had a lot in common and it seemed after few months that I have known his all my life. Our families were coperative and now we are happily married.<br>
+						Thanks</p>
+						<div class="feedback-grids mt-4">
+							<div class="feedback-img">
+								<img src="images/te3.jpg" class="img-fluid rounded-circle" alt="" />
+							</div>
+							<div class="feedback-img-info">
+								<h5>Seema Shah</h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 item">
+					<div class="feedback-info py-5 px-4">
+						<!--<h4 class="mb-2">Tempor incididunt ut labore hytnm
+						</h4>-->
+						<p>Two years ago, I foundmyself as a single mother with a young son. Recently divorced, I moved to Mumbai to live with my family. I joined SAGAI.COM and met Amit. Our chemistry was electric, so we decided to make it official amd we got married last year<br>
+						Thank You.</p>
+						<div class="feedback-grids mt-4">
+							<div class="feedback-img">
+								<img src="images/te2.jpg" class="img-fluid rounded-circle" alt="" />
+							</div>
+							<div class="feedback-img-info">
+								<h5>Ria Mathur</h5>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //feedback -->
+	<!-- stats -->
+	<!--<section class="stats py-5">
+		<div class="container py-md-5">
+			<h3 class="heading-agileinfo text-center">Our Achievements</h3>
+			<span class="w3-line black"></span>	
+			<div class="row inner_w3l_agile_grids-1 pt-md-5 mt-4">
+				<div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid">
+					<span class="fa fa-users mb-2"></span>
+					<p class="counter">250</p>
+					<h3>Clients</h3>
+				</div>
+				<div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid1">
+					<span class="fa fa-gift mb-2"></span>
+					<p class="counter">182</p>
+					<h3>Weddings</h3>
+				</div>
+				<div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid2">
+					<span class="fa fa-glass mb-2"></span>
+					<p class="counter">105</p>
+					<h3>Bachelore Parties</h3>
+				</div>
+				<div class="col-lg-3 col-sm-6 w3layouts_stats_left w3_counter_grid2">
+					<span class="fa fa-music mb-2"></span>
+					<p class="counter">150</p>
+					<h3>Other Events</h3>
+				</div>
+			</div>
+		</div>	
+	</section>-->
+<!-- //stats -->
+<!--/newsletter-->
+    <footer class="newsletter_right pymd-5 py-4" id="footer">
+        <div class="container">
+            <div class="inner-sec py-md-5 py-3">
+                <div class="row mb-md-4 mb-md-3">
+					<div class="col-lg-3 col-md-6 social-info text-left">
+                       <h3 class="tittle1 foot mb-md-5 mb-4 text-white">Get in touch</h3>
+						<p>A.P Market Complex, Link road Badambadi, Cuttack </p>
+						<p class="my-2"> Cuttack, India</p>
+						<p class="phone">Mobile: +91-8404941098</p>
+						<p class="phone my-2">Fax: +91-8400866618</p>
+						<p class="phone">Mail:
+							<a href="mailto:pratik99kumar@gmail.com">pratik99kumar@gmail.com</a>
+						</p>
 
+                    </div>
+					<div class="col-lg-3 col-md-6 social-info text-left">
+					 <h3 class="tittle1 foot mb-md-5 mb-4 text-white">About Us</h3>
+                       <p>SAGAI.COM is a leader when it comes to matchmaking services online. This fact is evident from our track record over the years. Join our friendly website and browse through the millions of profiles of different religion, state, countries and community. We take immense pride in serving our valuable members and have never disappointed.</p>
 
-    
+                    </div>
+                    <div class="col-lg-6 col-md-12 n-right tex-left">
+                        <h3 class="tittle1 foot mb-md-5 mb-4 text-white">Subscribe us</h3>
+                        <form action="#" method="post">
+                            <div class="form-group d-flex">
+                                <input class="form-control" type="email" name="Email" placeholder=" Email Address" required="">
+                                <button class="form-control submit text-uppercase" type="submit ">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<div class="copyright py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">      
+					<p class="copy-right mt-2">© SAGAI.COM. All Rights Reserved.
+						<!--<a href="http://w3layouts.com/"> W3layouts </a>-->
+					</p>
+				</div>
+				<div class="col-md-4">
+					<ul class="social-icons scial justify-content-end">
+						<li class="mr-1"><a href="#"><span class="fa fa-facebook"></span></a></li>
+						<li class="mx-1"><a href="#"><span class="fa fa-twitter"></span></a></li>
+						<li class="mx-1"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+						<li class="mx-1"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--//newsletter-->
+
 </body>
 </html>

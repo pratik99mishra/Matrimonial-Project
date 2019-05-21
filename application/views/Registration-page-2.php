@@ -37,34 +37,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Great! Now Some Basic Details</h2>
-                    <form method="POST">
+                    <form method="POST" id="page2" name="page2" action="<?php echo site_url('Page_2_controller/basic_details');?>">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-2" type="text" placeholder="First Name" name="first_name">
+                                    <input class="input--style-2" type="text" placeholder="First Name" name="first_name" id="first_name">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-2" type="text" placeholder="Last Name" name="last_name">
+                                    <input class="input--style-2" type="text" placeholder="Last Name" name="last_name" id="last_name">
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-2 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
+                                    <input class="input--style-2 js-datepicker" type="datepicker" placeholder="Birthdate" name="birthday" id="birthday">
                                     <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="gender">
+                                        <select name="gender" id="gender">
                                             <option disabled="disabled" selected="selected">Gender</option>
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                            <option>Other</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
                                         </select>
                                         <div class="select-dropdown"></div>
                                     </div>
@@ -75,14 +74,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="col-2">
                                <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="Mother_tongue">
+                                        <select name="Mother_tongue" id="Mother_tongue">
                                             <option disabled="disabled" selected="selected">Mother Tongue</option>
-                                            <option value="" label="Doesn't Matter">Doesn't Matter</option>
+                                            <option value="Doesn't Matter" label="Doesn't Matter">Doesn't Matter</option>
                                             <option value="Assamese" label="Assamese">Assamese</option>
-                                            <option value="Bengali" label="Bengali">Hindi</option>
+                                            <option value="Hindi" label="Hindi">Hindi</option>
                                             <option value="English" label="English">English</option>
                                             <option value="Gujarati" label="Gujarati">Gujarati</option>
-                                            <option value="Hindi" label="Hindi">Bengali</option>
+                                            <option value="Bengali" label="Bengali">Bengali</option>
                                             <option value="Kannada" label="Kannada">Kannada</option>
                                             <option value="Konkani" label="Konkani">Konkani</option>
                                             <option value="Malayalam" label="Malayalam">Malayalam</option>
@@ -154,11 +153,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="col-2">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="looking_for">
+                                        <select name="looking_for" id="looking_for">
                                             <option disabled="disabled" selected="selected">Looking For</option>
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                            <option>Other</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
                                         </select>
                                         <div class="select-dropdown"></div>
                                     </div>
@@ -166,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                         <div class="p-t-30">
-                            <a href="<?php echo base_url(),"Matrimonial/";?>Registration-page-3.php"<button class="btn btn--radius btn--green" type="submit">Next</button></a>
+                            <button class="btn btn--radius btn--green" type="submit">Next</button>
                         </div>
                     </form>
                 </div>
@@ -176,12 +174,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- Jquery JS-->
     <script src="<?php echo base_url(),"Matrimonial/";?>vendor/jquery/jquery.min.js"></script>
+
+    <script type="text/javascript" src="<?php echo base_url('Matrimonial/assets/js/Pratik.js');?>"></script>
     <!-- Vendor JS-->
     <script src="<?php echo base_url(),"Matrimonial/";?>vendor/select2/select2.min.js"></script>
     <script src="<?php echo base_url(),"Matrimonial/";?>vendor/datepicker/moment.min.js"></script>
     <script src="<?php echo base_url(),"Matrimonial/";?>vendor/datepicker/daterangepicker.js"></script>
 
     <!-- Main JS-->
-    <script src="<?php echo base_url(),"Matrimonial/";?>js/global.js"></script>
+    <script src="<?php echo base_url(),"Matrimonial/";?>js/global.js?version=1.1"></script>
 </body>
 </html>
