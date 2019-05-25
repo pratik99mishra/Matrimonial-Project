@@ -69,8 +69,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<span  class="fa fa-sign-in"></span>
 					</button>
 				</form>
-				<a href="" class="bottom-text-w3ls">Forgot Password?</a>
-				<br>
 				<a href="<?php echo site_url('Page_1_controller/index');?>" class="bottom-text-w3ls">Register Now.</a>
 			</div>
 		</div>

@@ -445,12 +445,13 @@ class My_register_model extends CI_Model
     public function upclass()
     {
         $this->db->where('Username', $this->session->userdata('user_'));
+
         $data=array
         (
-       'Email' =>$this->input->post('txtemail')
-       );
+            'Email' =>$this->input->post('txtemail')
+        );
+
 	    $query = $this->db->update('register_yourself', $data);
-     
     }
 
 	function getProfileDatalol($user_)
