@@ -21,8 +21,7 @@ class My_profile_controller extends CI_Controller
 		$data['profile_data'] = $this->mrm->getProfileData($this->session->userdata('user'));
 		$this->load->view('My_profile', $data);
 	}
-
-	public function updateclass()
+    public function updateclass()
     {
        $this->mrm->upclass();
        redirect('My_profile_controller');

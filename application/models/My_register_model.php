@@ -452,6 +452,7 @@ class My_register_model extends CI_Model
         );
 
 	    $query = $this->db->update('register_yourself', $data);
+	    //echo $this->db->last_query(); die();
     }
 
 	function getProfileDatalol($user_)

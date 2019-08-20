@@ -115,18 +115,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p>Feedback</p>
                     </a>
                 </li>
-                <li class="">
-                    <a href="<?php echo site_url('Notifications_controller/index');?>">
+               <!-- <li class="">
+                    <a href="<?php //echo site_url('Notifications_controller/index');?>">
                         <i class="fa fa-globe" aria-hidden="true"></i>
                         <p>NOTIFICATIONS</p>
                     </a>
                 </li>
                 <li class="">
-                    <a href="<?php echo site_url('Search_controller/index');?>">
+                    <a href="<?php //echo site_url('Search_controller/index');?>">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <p>SEARCH</p>
                     </a>
-                </li>
+                </li>-->
                 <li class="">
                     <a href="<?php echo site_url('Settings_controller/index');?>">
                         <i class="fa fa-cogs" aria-hidden="true"></i>

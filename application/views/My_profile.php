@@ -207,7 +207,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h4 class="title">Edit Profile</h4>
                             </div>
                             <div class="content">
-                                <form  method="POST" id="page10" name="page10" action="<?php echo site_url('My_profile_controller/updateclass');?>">
+                                <form  method="POST" id="page10" name="page10" action="<?php echo site_url('My_profile_controller/updateclass')
+                                ;?>">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">

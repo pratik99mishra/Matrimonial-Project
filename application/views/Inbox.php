@@ -184,7 +184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <!--<div class="col-md-6">
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Comments</h4>
@@ -204,7 +204,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     </div>
                     <div class="col-md-4">
                         <div class="card">
